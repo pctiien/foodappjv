@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "724196503084",
+    "project_id": "foodordermyson-7dce0",
+    "storage_bucket": "foodordermyson-7dce0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724196503084:android:fe7fdd4d545f6e07e76b89",
+        "android_client_info": {
+          "package_name": "com.example.foodordermyson"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724196503084-vgueffslmhidtfg78m3f2u8b5h8je9dq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.foodordermyson",
+            "certificate_hash": "59958254d3342ed9b99ae60b9f82bdc350402b5c"
+          }
+        },
+        {
+          "client_id": "724196503084-hh7mnddsp2u7mbckqbvh66lhenm93lmu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeKtwqwFarunPqJa7NLHb1GFxZeZ6_z5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724196503084-hh7mnddsp2u7mbckqbvh66lhenm93lmu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="#F5F5F8"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:padding="30dp"
+        android:id="@+id/layout_searchedt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/back_button"
+                android:padding="10dp"
+                android:src="@drawable/backbuttonicon"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="center_vertical"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:clickable="true"
+                android:id="@+id/edt_search"
+                android:maxLines="1"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:paddingLeft="20dp"
+                android:layout_toRightOf="@id/back_button"
+                android:background="@android:color/transparent"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_below="@id/layout_searchedt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView
+            android:paddingHorizontal="10dp"
+            android:orientation="vertical"
+            android:id="@+id/recycler_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            />
+    </ScrollView>
+
+    <TextView
+        android:layout_below="@id/scroll"
+        android:id="@+id/loadmore"
+        android:textColor="@drawable/state_loadmore"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:gravity="center"
+        android:text="@string/showless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

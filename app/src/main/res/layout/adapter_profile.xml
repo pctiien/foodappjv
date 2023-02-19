@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_marginVertical="10dp"
+    android:id="@+id/adapter_ProfileLayout"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:paddingRight="30dp"
+    android:paddingLeft="20dp"
+    android:paddingVertical="5dp"
+    android:background="@drawable/white_radius_thin"
+    android:weightSum="2.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/infoName"
+        android:layout_weight="1.0"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:text="Orders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:rotation="180"
+        android:layout_weight="1.0"
+        android:src="@drawable/backbuttonicon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+</androidx.appcompat.widget.LinearLayoutCompat>
