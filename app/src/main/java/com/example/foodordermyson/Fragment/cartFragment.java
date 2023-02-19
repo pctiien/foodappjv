@@ -162,6 +162,7 @@ public class cartFragment extends Fragment implements ItemTouchHelperListener {
                     allprice_now = allprice_now + Integer.parseInt(cartList.get(i).getAllprice());
                 }
                 CurrentCart.ALL_PRICE =allprice_now;
+                CurrentCart.CART_ITEM_LIST = cartAdapter.getCartList();
                 //Set text for TextView (amount+allprice)
                 soluong.setText(String.valueOf(cartList.size()));
                 Locale locale = new Locale("vi","VN");
@@ -189,6 +190,7 @@ public class cartFragment extends Fragment implements ItemTouchHelperListener {
                     allprice_now = allprice_now + Integer.parseInt(cartList.get(i).getAllprice());
                 }
                 CurrentCart.ALL_PRICE =allprice_now;
+                CurrentCart.CART_ITEM_LIST = cartAdapter.getCartList();
                 Locale locale = new Locale("vi","VN");
                 NumberFormat numberFormat = NumberFormat.getCurrencyInstance(locale);
                 allprice.setText(numberFormat.format(allprice_now));
@@ -204,6 +206,7 @@ public class cartFragment extends Fragment implements ItemTouchHelperListener {
                     allprice_now = allprice_now + Integer.parseInt(cartList.get(i).getAllprice());
                 }
                 CurrentCart.ALL_PRICE =allprice_now;
+                CurrentCart.CART_ITEM_LIST = cartAdapter.getCartList();
                 soluong.setText(String.valueOf(cartList.size()));
                 Locale locale = new Locale("vi","VN");
                 NumberFormat numberFormat = NumberFormat.getCurrencyInstance(locale);

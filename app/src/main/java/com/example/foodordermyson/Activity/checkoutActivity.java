@@ -172,7 +172,7 @@ public class checkoutActivity extends AppCompatActivity {
                             request.setDeliveryMethod(deliveryMethod());
                             request.setPaymentMethod(paymentMethod());
                             request.setPhoneNumber(CurrentUser.currentUser.getPhonenumber());//Doing after
-                            request.setFoodRequest(cartActivity.cartList);
+                            request.setFoodRequest(CurrentCart.CART_ITEM_LIST);
                             request.setOrder_time(order_time);
                             pushRequestToFirebase(request);
                             dialog.dismiss();

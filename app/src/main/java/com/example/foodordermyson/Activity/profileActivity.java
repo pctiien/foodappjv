@@ -159,7 +159,6 @@ public class profileActivity extends AppCompatActivity {
 
     private void updateUserToFirebase(User user) {
         isSignin = true;
-        FirebaseApp.initializeApp(profileActivity.this);
         databaseReference.child(user.getUid()).setValue(user, new DatabaseReference.CompletionListener() {
             @Override
             public void onComplete(@Nullable DatabaseError error, @NonNull DatabaseReference ref) {

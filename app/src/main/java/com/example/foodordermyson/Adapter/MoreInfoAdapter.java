@@ -1,7 +1,6 @@
 package com.example.foodordermyson.Adapter;
 
 import android.content.Context;
-import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,13 +8,8 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.widget.LinearLayoutCompat;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.foodordermyson.Activity.MainActivity;
-import com.example.foodordermyson.Activity.cartActivity;
-import com.example.foodordermyson.Activity.mainscreenActivity;
 import com.example.foodordermyson.R;
 
 import java.util.List;

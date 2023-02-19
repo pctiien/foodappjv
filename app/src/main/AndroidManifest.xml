@@ -22,20 +22,6 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".cartFragment"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".homefragment"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
             android:name=".Activity.profileActivity"
             android:exported="false">
             <meta-data
@@ -79,13 +65,6 @@
         </activity>
         <activity
             android:name=".Activity.detailsorderActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".Activity.cartActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

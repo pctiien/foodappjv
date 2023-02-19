@@ -129,7 +129,7 @@
         <com.google.android.material.button.MaterialButton
             android:layout_below="@id/warning"
             android:id="@+id/button_signin"
-            android:text="Sign Up"
+            android:text="Log In"
             android:textSize="13sp"
             android:textAllCaps="false"
             android:textColor="@color/white"

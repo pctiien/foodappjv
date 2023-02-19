@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FoodOrder</string>
+    <string name="app_name">Green Order</string>
     <string name="title_activity_maps">MapsActivity</string>
     <string name="loadmore">Load more...</string>
     <string name="showless">Show less...</string>
